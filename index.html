@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evo AI - Royal Edition</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="royal-bg-wrapper">
+        
+        <div class="chat-container">
+            
+            <div class="chat-header">
+                <h2>Evo AI - Royal Edition</h2>
+                <p>Namaste, and welcome! I am Evo...</p>
+            </div>
+            
+            <div class="chat-box" id="chatBox">
+                <div class="chat-row bot-row">
+                    <div class="avatar-feather"><i class="fas fa-feather-alt"></i></div>
+                    <div class="message-wrapper">
+                        <span class="sender-label">Evo</span>
+                        <div class="message bot-message">
+                            Namaste! Please allow me to showcase some art of a peacock. I will create elegant art forms based on your inquiries. What would you like to see?
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-row user-row">
+                    <div class="message-wrapper">
+                        <span class="sender-label">You</span>
+                        <div class="message user-message">
+                            Create a peacock in form of art.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <form class="input-area" id="chatForm">
+                <input type="text" id="userInput" placeholder="Create a peacock in form of art." required autocomplete="off">
+                <button type="submit" id="sendBtn">
+                    <i class="fas fa-feather-alt"></i>
+                </button>
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
